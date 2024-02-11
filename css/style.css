@@ -142,3 +142,35 @@ body {
     margin-top: 41px;
     margin-left: 164px;
 }
+
+/* works */
+
+.works {
+    background-image: url(../images/works/gridient.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 606px;
+}
+
+.works__list {
+    border: 5px solid rgb(142, 50, 198);
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.works__item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.works__title {
+    color: rgb(255, 255, 255);
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
