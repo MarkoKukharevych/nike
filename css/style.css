@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-    width: 1440px;
+    width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
     outline: solid 1px red;
@@ -166,11 +166,11 @@ body {
 }
 
 .works__title {
-    color: rgb(255, 255, 255);
-    font-family: Playfair Display;
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 48px;
-    letter-spacing: 0%;
+    color: #FFF;
     text-align: center;
+    font-family: "Playfair Display";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
