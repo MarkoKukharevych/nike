@@ -312,6 +312,11 @@ body {
     background-position: center;
 }
 
+.footer__div {
+    display: flex;
+    justify-content: space-between;
+}
+
 .quest__list {
     gap: 10px;
 }
@@ -333,16 +338,35 @@ body {
     color: #FFF;
     font-family: Roboto;
     font-size: 24px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     text-decoration-line: underline;
+    text-align: right;
 }
 
-.information__list {}
+.information__list {
+    gap: 7px;
+    margin-top: 24px;
+}
 
-.information__item {}
+.information__item {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
 
-.logo__colored--list {}
+.logo__colored--list {
+    display: flex;
+}
 
-.logo__footer--item {}
+.footer__img {
+    align-content: flex-end;
+}
+
+.logo__footer--item {
+    color: #FFF;
+    font-family: "PT Serif";
+    font-size: 24px;
+    font-weight: 400;
+    text-align: right;
+}
