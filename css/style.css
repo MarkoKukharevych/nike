@@ -143,7 +143,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 606px;
+    padding: 105px 0;
 }
 
 .works__list {
@@ -207,16 +207,15 @@ body {
     margin-top: 24px;
 }
 
-.reviews__item {}
+.reviews__item {
+    padding: 49px 13px 29px;
+}
 
 .review {
     color: #FFF;
     font-size: 24px;
     font-weight: 400;
     width: 228px;
-    margin-top: 49px;
-    margin-left: 18px;
-    margin-right: 9px;
 }
 
 .date {
@@ -224,19 +223,21 @@ body {
     font-size: 14px;
     font-weight: 400;
     margin-top: 8px;
-    margin-left: 18px;
+}
+
+.reviews__users {
+    display: flex;
+    margin-top: 47px;
 }
 
 .avatar {
-    margin-top: 47px;
-    margin-left: 18px;
+    margin-right: 5px;
 }
 
 .name {
     color: #FFF;
     font-size: 14px;
     font-weight: 400;
-    margin-left: 54px;
 }
 
 .withus {
@@ -244,7 +245,6 @@ body {
     font-family: Roboto;
     font-size: 12px;
     font-weight: 400;
-    margin-left: 54px;
 }
 
 #john {
@@ -275,11 +275,11 @@ body {
 
 .order {
     display: flex;
-    background-color: rgba(31, 108, 160, 0.925);
+    background-image: url(../images/order/order.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 509px;
+    height: 700px;
 }
 
 .order__title {
@@ -318,6 +318,8 @@ body {
 .footer__div {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #9B9B9B;
+    padding: 20px 165px;
 }
 
 .quest__list {
@@ -359,9 +361,7 @@ body {
     display: flex;
 }
 
-.footer__img {
-    align-content: flex-end;
-}
+.footer__img {}
 
 .logo__footer--item {
     color: #FFF;
