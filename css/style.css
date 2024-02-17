@@ -6,7 +6,6 @@ body {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    outline: solid 1px red;
 }
 
 /* header */
@@ -82,6 +81,7 @@ body {
 
 .hero__img {
     margin-top: 94px;
+    margin-bottom: -35px;
 }
 
 .hero__logo {
@@ -92,6 +92,8 @@ body {
     line-height: 64px;
     text-align: left;
     margin-top: 1px;
+    margin-bottom: -25px;
+    margin-left: 30px;
 }
 
 .hero__title {
@@ -101,6 +103,7 @@ body {
     font-weight: 400;
     line-height: 192px;
     margin-top: 1px;
+    margin-bottom: -10px;
 }
 
 .hero__subtitle {
@@ -120,7 +123,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
-    margin-top: 60px;
+    margin-top: 12px;
 }
 
 .hero__button {
@@ -279,7 +282,10 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 570px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .order__title {
@@ -292,11 +298,24 @@ body {
     margin-bottom: 31px;
 }
 
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 19px;
+}
+
 .email {
     width: 690px;
     height: 60px;
     border-radius: 50px;
     background: #FFF;
+    color: #959595;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .label {
@@ -304,22 +323,45 @@ body {
     height: 50px;
     border-radius: 50px;
     background: #FFF;
+    color: #959595;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+input {
+    padding-left: 25px;
+}
+
+.order__button {
+    width: 248px;
+    height: 68px;
+    border-radius: 16px;
+    background: #8E32C6;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 19px;
+    margin-left: 450px;
 }
 
 /* footer */
 
 .footer {
-    height: 292px;
     background-color: #021635;
     background-size: cover;
     background-position: center;
+    padding: 45px 0;
 }
 
 .footer__div {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #9B9B9B;
-    padding: 20px 165px;
+    padding-bottom: 20px;
 }
 
 .quest__list {
@@ -346,6 +388,13 @@ body {
     text-align: right;
 }
 
+.info__div {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #9B9B9B;
+}
+
 .information__list {
     gap: 7px;
     margin-top: 24px;
@@ -361,12 +410,14 @@ body {
     display: flex;
 }
 
-.footer__img {}
+.footer__img {
+    margin-bottom: -5px;
+}
 
 .logo__footer--item {
     color: #FFF;
     font-family: "PT Serif";
     font-size: 24px;
     font-weight: 400;
-    text-align: right;
+    text-align: center;
 }

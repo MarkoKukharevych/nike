@@ -41,7 +41,7 @@
 
         <section class="hero">
             <div class="container">
-                <img class="hero__img" src="./images/png/nike.png" alt="nike__png">
+                <img class="hero__img" src="./images/hero/hero.logo.png" alt="nike__png">
                 <p class="hero__logo">С&R</p>
                 <h1 class="hero__title">ColoRawe</h1>
                 <h2 class="hero__subtitle">Your dream Nike</h2>
@@ -134,17 +134,20 @@
         <section class="order">
             <div class="container">
                 <h2 class="order__title">Order</h2>
-                <label class="email" for="email">Write your email</label>
-                <input type="email" id="email" placeholder="confirm" />
+                <form>
+                    <label for="email"></label>
+                    <input class="email" type="email" id="email" placeholder="Write your email" />
 
-                <label class="label" for="country">Your Country</label>
-                <input type="text" id="contry" />
+                    <label for="country"></label>
+                    <input class="label" type="text" id="contry" placeholder="Your Country" />
 
-                <label class="label" for="City">Your City</label>
-                <input type="text" id="city" />
+                    <label for="City"></label>
+                    <input class="label" type="text" id="city" placeholder="Your City" />
 
-                <label class="label" for="adress">Your Adress</label>
-                <input type="text" id="adress" />
+                    <label for="adress"></label>
+                    <input class="label" type="text" id="adress" placeholder="Your Adress" />
+                </form>
+                <button class="order__button" type="submit">Order my Nike</button>
             </div>
         </section>
     </main>
@@ -165,14 +168,17 @@
                     <li class="links__item">ColoRawe_Advertising@gmail.com</li>
                 </ul>
             </div>
-            <ul class="information__list">
-                <li class="information__item">2022 ColoRawe @All rights reserved</li>
-                <li class="information__item">United States</li>
-            </ul>
-            <ul class="logo__footer--list">
-                <li class="logo__footer--item"><img class="footer__img" src="./images/png/nike.png" alt="nike png"></li>
-                <li class="logo__footer--item">С&R</li>
-            </ul>
+            <div class="info__div">
+                <ul class="information__list">
+                    <li class="information__item">2022 ColoRawe @All rights reserved</li>
+                    <li class="information__item">United States</li>
+                </ul>
+                <ul class="logo__footer--list">
+                    <li class="logo__footer--item"><img class="footer__img" src="./images/png/nike.png" alt="nike png">
+                    </li>
+                    <li class="logo__footer--item">С&R</li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
