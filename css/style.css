@@ -313,9 +313,7 @@ form {
     color: #959595;
     font-family: Roboto;
     font-size: 28px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
 .label {
@@ -326,9 +324,7 @@ form {
     color: #959595;
     font-family: Roboto;
     font-size: 24px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
 input {
@@ -336,6 +332,8 @@ input {
 }
 
 .order__button {
+    display: block;
+    margin: 0 auto;
     width: 248px;
     height: 68px;
     border-radius: 16px;
@@ -345,15 +343,12 @@ input {
     font-size: 24px;
     font-weight: 400;
     margin-top: 19px;
-    margin-left: 450px;
 }
 
 /* footer */
 
 .footer {
     background-color: #021635;
-    background-size: cover;
-    background-position: center;
     padding: 45px 0;
 }
 
@@ -364,20 +359,12 @@ input {
     padding-bottom: 20px;
 }
 
-.quest__list {
-    gap: 10px;
-}
-
 .quest__item {
     color: #FFF;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
-
-.links__list {
-    gap: 10px;
 }
 
 .links__item {
@@ -388,15 +375,12 @@ input {
     text-align: right;
 }
 
-.info__div {
-    display: flex;
+.info {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #9B9B9B;
 }
 
 .information__list {
-    gap: 7px;
     margin-top: 24px;
 }
 
@@ -404,10 +388,6 @@ input {
     color: #FFF;
     font-size: 18px;
     font-weight: 400;
-}
-
-.logo__colored--list {
-    display: flex;
 }
 
 .footer__img {
